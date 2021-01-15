@@ -6,26 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:id="@+id/linearContainer"
     tools:context=".MainActivity">
 
-    <fragment
-        tools:layout="@layout/fragment_android"
-        android:name="com.example.fragment05102020.AndroidFragment"
-        android:id="@+id/fragmentAndroid"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-    <fragment
-        tools:layout="@layout/fragment_android"
-        android:name="com.example.fragment05102020.AndroidFragment"
-        android:id="@+id/fragmentAndroid1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-    <fragment
-        tools:layout="@layout/fragment_android"
-        android:name="com.example.fragment05102020.AndroidFragment"
-        android:id="@+id/fragmentAndroid2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
 
 
 </LinearLayout>
